@@ -13,7 +13,5 @@ Pierwsza wersja aplikacji
 
 #### Co nowego
 - Wszystko jest nowe
-
-#### Bug Fixes
 - More bugs to fix later
 
