@@ -2,8 +2,8 @@
 	height: 714px;
 	background: 
 		linear-gradient(
-		rgba($image-overlay-color, $image-overlay-transparency), 
-		rgba($image-overlay-color, $image-overlay-transparency)
+		rgba(0,0,0,0.8), 
+		rgba(0,0,0,0.2)
 		   ),
 		
 		url($header-image);
