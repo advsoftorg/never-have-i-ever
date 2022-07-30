@@ -1,10 +1,12 @@
 .imageWrapper {					// Sets the background image in the header area
 	height: 714px;
-	background: -moz-linear-gradient(90deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 50%, rgba(255,101,91,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 50%, rgba(255,101,91,1) 100%);
-	background: -o-linear-gradient(90deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 50%, rgba(255,101,91,1) 100%);
-	background: -ms-linear-gradient(90deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 50%, rgba(255,101,91,1) 100%);
-	background: linear-gradient(0deg, rgba(253,41,123,1) 0%, rgba(255,88,100,1) 50%, rgba(255,101,91,1) 100%);
+	background: 
+		linear-gradient(
+		rgba($image-overlay-color, $image-overlay-transparency), 
+		rgba($image-overlay-color, $image-overlay-transparency)
+		   ),
+		
+		url($header-image);
 
 	background-repeat: no-repeat;
 	background-size: cover;
